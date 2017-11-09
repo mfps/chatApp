@@ -1,0 +1,23 @@
+{
+  "name": "chatApp",
+  "version": "1.0.0",
+  "description": "chat app",
+  "main": "index.js",
+  "author": "mfps <f.s.wille@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "test": "jasmine",
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongoose": "^4.13.1",
+    "socket.io": "^2.0.4"
+  },
+  "devDependencies": {
+    "jasmine": "^2.8.0",
+    "request": "^2.83.0"
+  }
+}
